@@ -6,4 +6,4 @@ Note : all the plugins can be downloaded from app itself
 
 ### Plugin Avaliable are 
 
-#### Yande
+#### Yande (website - yande.re)
