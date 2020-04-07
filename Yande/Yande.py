@@ -17,6 +17,7 @@ requirements for plugin
       ~ version = v 0.0.1
       ~ isSyncable = 1           #if it can sync tags look at operation no. 2, 1 for yes, 0 for no, if 0 operation2 can be removed
       ~ canSearchTags = 1          # if it can search tags for sub string for auto complete, if 0, operation 3 can be skipped
+      ~ description = any text
 
   -an seprate plugin setting info file, not settings itself but possible values of settings
     +contais key pair value example
