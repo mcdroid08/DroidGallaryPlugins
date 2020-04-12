@@ -26,9 +26,9 @@ requirements for plugin
       ~ EG values
       ~ setting name = range, minvalue, maxvalue, selected value    #min max both included
       ~ setting name = selector, option_1, option_2, option_3, selected_option       #selected option must be in options else 1st option will be selected automatically
-      ~ setting name = toggle, 0 or 1               	#1 for on 0 for off
-      ~ setting name = input, value        #if no value provided input value will be empty string
-      ~ Password = password, value
+      ~ setting name = toggle, stringtowritebeforetoggle, 0 or 1               	#1 for on 0 for off
+      ~ setting name = input, promot text, value        #if no value provided input value will be empty string
+      ~ Password = password, prompttext value
 
 ================================================================================
 
