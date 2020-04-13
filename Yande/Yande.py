@@ -199,20 +199,22 @@ def get_images(search_tag, page_num):
 
 
 def main():
+    """
     search_tag = ""
     page_num = 1
     search_query = "veg"
-
     req = "tags"
-    # req = sys.argv[1]
+    """
+    
+    req = sys.argv[1]
 
     if req == "search":
-        # search_tag = sys.argv[2]
-        # page_num = sys.argv[3]
+        search_tag = sys.argv[2]
+        page_num = sys.argv[3]
         get_images(search_tag, page_num)
 
     elif req == "tags":
-        # search_query = sys.argv[2]
+        search_query = sys.argv[2]
         get_tags(search_query)
 
     elif req == "sync":
