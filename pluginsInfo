@@ -1,4 +1,5 @@
 # this file contains the list of plugins the app can fetch , with their versions
+# note : any line in this file that have key and value seprated with comma will be going to concidered as information about a plugin
 
 # list
 ========================
