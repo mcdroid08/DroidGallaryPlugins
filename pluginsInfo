@@ -1,10 +1,10 @@
-# this file contains the list of plugins the app can fetch , with their versions
-# note : any line in this file that have key and value seprated with comma will be going to concidered as information about a plugin
+# this file contains the list of plugins the app can fetch and their versions
+# note : any line in this file that have key and value seprated with equal sign will be going to concidered as information about a plugin
 
 # list
 ========================
 
-Konachan, 0.0.1
-Yande, 0.0.1
+Konachan = 0.0.1
+Yande = 0.0.1
 
 ========================
